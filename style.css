@@ -1,0 +1,21 @@
+#
+{
+    background-color: rgb(142, 196, 244);
+
+}
+.header
+{
+    font-size: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tags
+{
+    display: flex;
+}
+.leetcode , .codeforces, .anonymous, .blogs{
+    padding: 10px;
+    text-decoration: double;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
