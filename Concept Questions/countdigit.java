@@ -5,13 +5,21 @@ public class countdigit
     {
         return (long)(Math.log10(n))+1;
     }
+    static void printDigit(long digit,long n)
+    {
+        while(digit>0)
+        {
+            System.out.println((long)(n/Math.pow(10, digit-1)));
+            n=(long) (n%Math.pow(10, digit-1));
+            digit--;
+        }
+    }
     public static void main(String[] args)
     {
-        try (Scanner in = new Scanner(System.in)) {
+            Scanner in = new Scanner(System.in);
             long n;
             n=in.nextLong();
-            System.out.println(countDigit(n));
-        }
-
+            long digit = countDigit(n);
+            printDigit(digit,n);
     }
 }
