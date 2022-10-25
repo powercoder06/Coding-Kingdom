@@ -25,7 +25,7 @@
     height:50px;
     transition: all 0.8s ease-in-out;
     transform: translateX(0);
-}
+}*/
 a {
     text-decoration: none;
     font-weight: bolder;
@@ -41,6 +41,9 @@ a:hover {
 a:active 
 {
     color: pink;
-} */
+} 
 
 
+.tags {
+    font-size: 30px;
+}
