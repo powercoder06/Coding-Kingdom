@@ -1,3 +1,5 @@
+package leetcode;
+
 import java.util.Scanner;
 public class rotatestring {
     public static boolean rotateString(String s, String goal) {
