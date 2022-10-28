@@ -56,7 +56,24 @@
     opacity:0;
 }
 
+.slide a {
+    text-decoration: none;
+    font-size: large;
 
+}
+.slide button {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    top: 55%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    border: none;
+    background-color: rgb(56, 245, 125);
+    padding-top:3px;
+    opacity: 0;
+}
 .slide.isActive {
   flex: 10;
 }
@@ -93,6 +110,10 @@
   transition: opacity .3s ease-in .4s;
 }
 .slide.isActive p {
+    opacity: 1;
+    transition: opacity .3s ease-in .4s;
+}
+.slide.isActive button {
     opacity: 1;
     transition: opacity .3s ease-in .4s;
 }
